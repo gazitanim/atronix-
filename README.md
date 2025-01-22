@@ -1,34 +1,32 @@
 # CTF Automation Tool
 
 ## Overview
-The **CTF Automation Tool** is a Python-based solution designed to streamline reconnaissance tasks commonly encountered in Capture-the-Flag (CTF) challenges. This tool automates:
-- **Port Scanning**: Quickly identify open ports and services using `nmap`.
-- **Directory Enumeration**: Detect hidden directories on web servers using `gobuster`.
-- **Result Logging**: Saves all outputs for easy reference.
+The **CTF Automation Tool** is a Python-based solution designed to automate reconnaissance tasks commonly required in Capture-the-Flag (CTF) challenges. This tool:
+- Performs **port scanning** to detect open ports and services.
+- Conducts **directory enumeration** to identify hidden web paths.
+- Logs results in organized files for easy access.
 
-The tool is intended for ethical use in CTF environments or private lab setups.
+The tool is intended for use in **isolated virtual environments**, such as Kali Linux or any system supporting Python.
 
 ---
 
 ## Features
 - Automated **port scanning** with detailed service detection.
-- Directory enumeration using wordlists for uncovering web server paths.
-- User-friendly logging and output storage.
-- Results saved in organized files for easy access.
-- Built for use in isolated environments like Kali Linux.
+- Directory enumeration using local wordlists for hidden paths.
+- Organized output storage for both scans and logs.
+- Runs independently in virtual environments without requiring `apt`.
 
 ---
 
 ## Installation
 
 ### Prerequisites
-1. Python 3.x installed.
-2. Required tools:
-   - `nmap`
-   - `gobuster`
+1. Python 3.x installed on your system.
+2. The following tools available **locally or as binaries**:
+   - `nmap` (for port scanning): Download [nmap binaries](https://nmap.org/download.html).
+   - `gobuster` (for directory enumeration): Download [gobuster binaries](https://github.com/OJ/gobuster/releases).
 
 ### Steps
-1. Clone the repository:
+1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/CTF-Automation-Tool.git
-   cd CTF-Automation-Tool
+   git clone https://github.co
