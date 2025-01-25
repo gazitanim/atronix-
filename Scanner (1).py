@@ -4,7 +4,7 @@ import nmap
 
 scanner = nmap.PortScanner()
 
-print("Welcome, this is a simple nmap automation tool")
+print("Welcome, Atronix IT & Solutions nmap automation tool")
 print("<----------------------------------------------------->")
 
 ip_addr = input("Please enter the IP address you want to scan: ")
